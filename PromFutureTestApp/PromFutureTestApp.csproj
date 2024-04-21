@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid" />
+    <PackageReference Include="Blazored.LocalStorage" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PromFutureTestLibrary\PromFutureTestLibrary.csproj" />
+    <ProjectReference Include="..\VendistaServiceLibrary\VendistaServiceLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
